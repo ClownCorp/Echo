@@ -22,5 +22,5 @@ jobs:
           echo Using default scheme: $default
       - name: Build iOS Action
         uses: sparkfabrik/ios-build-action@v2.0.0
-          with:
-            project-path: Echo.xcodeproj
+        with:
+          project-path: Echo.xcodeproj
